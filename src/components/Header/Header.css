@@ -1,0 +1,15 @@
+header{
+background-color: blue;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+background-color: blue;
+height: 60px;
+padding: 0 10px;
+}
+
+a{
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
