@@ -1,9 +1,14 @@
+import { Lista } from '../../utils/Lista';
 import './ListaFilmes.css'
 
-function ListaFilmes(){
+function ListaFilmes() {
+
+    const filmes = Lista;
+
     return (
         <div className="divFilmes">
-            <h1>Lista de Filmes</h1>
+            <h1>{filmes[0].name}</h1>
+            <img className='myimg' src={filmes[0].imagem} />
         </div>
     )
 }
