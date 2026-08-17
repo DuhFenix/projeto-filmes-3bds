@@ -8,7 +8,7 @@ export const Lista = [{
     name: 'Chuky 2',
     description: 'Em Brinquedo Assassino 2 (1990), o jovem Andy vai para uma família adotiva após sua mãe ser internada. Os fabricantes do boneco o reconstroem para salvar a reputação da empresa, o que traz a alma de Chucky de volta para continuar caçando Andy.',
     video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/QQ578YDz-sQ?si=DnuIfclpZlQIu9Bd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
-    imagem: 'chuky-2.jpg',
+    imagem: 'chucky-2.jpg',
 },
 {
     name: 'A hora do pesadelo 2010',
@@ -20,7 +20,7 @@ export const Lista = [{
     name: 'Jason parte 4',
     description: 'Em Sexta-Feira 13 - Parte 4: O Capítulo Final (1984), Jason Voorhees, o assassino mascarado, continua sua matança em Crystal Lake. Após escapar da morte, ele retorna para aterrorizar um grupo de jovens que estão acampando na área. A tensão aumenta à medida que os sobreviventes tentam escapar de seu destino mortal.',
     video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/IvAafmoZsNI?si=dXxu1k8va0Ew6FQa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
-    imagem: 'jason-4.jpg',
+    imagem: 'jason-pt4.jpg',
 },
 {
     name:'Terrifier',
