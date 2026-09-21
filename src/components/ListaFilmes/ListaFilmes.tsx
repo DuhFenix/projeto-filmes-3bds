@@ -16,7 +16,7 @@ function ListaFilmes() {
 
     return (
         <>
-            <h1 style={{ color: "red", fontSize: 80 }}>Horror Filmes 👻</h1>
+            <h1 style={{ color: "red", fontSize: 80 }}>Projeto Filmes 🎬</h1>
             {filmes.map((filme, index) => (
                 <div className="divFilmes" key={index}>
                     <h1 style={{color:"red"}}>{filme.name}</h1>
