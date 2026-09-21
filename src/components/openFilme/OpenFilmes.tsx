@@ -13,8 +13,8 @@ function OpenFilmes() {
     }
 
     return (
-        <div className="divFilmes">
-            <h1>{filme.name}</h1>
+        <div className="divFilmes" style={{marginTop: 100}}>
+            <h1 style={{color:"red"}}>{filme.name}</h1>
             <img className='myimg' src={filme.imagem} alt={filme.name} />
             <label className='mydescription'>{filme.description}</label>
             <div className="myvideo" dangerouslySetInnerHTML={{ __html: filme.video }} />

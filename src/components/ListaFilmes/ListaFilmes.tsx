@@ -8,19 +8,20 @@ function ListaFilmes() {
 
     const navigate = useNavigate();
 
-    function NavegarFilme(filme:Ifilmes){
-        navigate('/filme', {state:  filme})
+    function NavegarFilme(filme: Ifilmes) {
+        navigate('/filme', { state: filme })
     }
 
     const filmes = Lista as Ifilmes[];
 
     return (
         <>
+            <h1 style={{ color: "red", fontSize: 80 }}>Horror Filmes 👻</h1>
             {filmes.map((filme, index) => (
                 <div className="divFilmes" key={index}>
-                    <h1>{filme.name}</h1>
+                    <h1 style={{color:"red"}}>{filme.name}</h1>
                     <img className='myimg' src={filme.imagem} alt={filme.name} />
-                    <Button onClick={() => {NavegarFilme(filme)}}  style={{ marginTop: 20 }} variant="contained">Acessar</Button>
+                    <Button onClick={() => { NavegarFilme(filme) }} style={{ marginTop: 20  , color:"red" , borderColor:"red"}} variant="outlined">Acessar</Button>
                 </div>
             ))}
         </>
