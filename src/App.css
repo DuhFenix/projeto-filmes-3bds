@@ -13,3 +13,8 @@ body{
 .txtcolor{
     color:white;
 }
+
+.myinput{
+    background-color: white;
+    border-radius: 2px;
+}
