@@ -1,5 +1,4 @@
 import { Button } from '@mui/material';
-import { Lista } from '../../utils/Lista';
 import './ListaFilmes.css'
 import type { Ifilmes } from '../../Interfaces/Ifilmes';
 import { useNavigate } from 'react-router';
@@ -12,7 +11,7 @@ function ListaFilmes() {
         navigate('/filme', { state: filme })
     }
 
-    const filmes = Lista as Ifilmes[];
+    const filmes = [] as Ifilmes[];
 
     return (
         <>
